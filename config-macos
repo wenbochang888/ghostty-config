@@ -1,0 +1,8 @@
+# Ghostty macOS-specific overrides
+# These settings only apply on macOS
+
+# Left Option = Alt (for terminal shortcuts like Alt+B/F)
+# Right Option = macOS default (for special characters)
+macos-option-as-alt = left
+macos-titlebar-style = native
+window-theme = auto
