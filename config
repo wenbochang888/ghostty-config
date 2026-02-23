@@ -49,7 +49,6 @@ scrollback-limit = 10000000
 
 # ── Platform Overrides (optional, won't error if missing) ────────
 config-file = ?config-macos
-config-file = ?config-linux
 
 # ── Local Overrides (machine-specific, not tracked by git) ───────
 config-file = ?config.local

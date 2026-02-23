@@ -1,13 +1,12 @@
 # Ghostty 配置
-个人 [Ghostty](https://ghostty.org) 终端配置，支持 macOS / Linux 跨平台共享。
+个人 [Ghostty](https://ghostty.org) 终端配置（macOS）。
 
 ## 目录结构
 
 ```
 ~/.config/ghostty/
-├── config          # 主配置（跨平台）
+├── config          # 主配置
 ├── config-macos    # macOS 专属
-├── config-linux    # Linux 专属
 ├── config.local    # 单机定制（不入 Git）
 └── .gitignore
 ```
@@ -26,15 +25,8 @@
 ## 快速开始
 
 ### 第一步：安装字体
-
-**macOS:**
 ```bash
 brew install --cask font-jetbrains-mono-nerd-font
-```
-
-**Linux (Ubuntu/Debian):**
-```bash
-sudo apt install fonts-jetbrains-mono
 ```
 
 ### 第二步：克隆配置
@@ -43,10 +35,9 @@ sudo apt install fonts-jetbrains-mono
 git clone https://github.com/wenbochang888/ghostty-config.git ~/.config/ghostty
 ```
 
-### 第三步：清理旧配置（仅 macOS）
+### 第三步：清理旧配置
 
 macOS 有两个配置路径，需要清空旧的避免冲突：
-
 ```bash
 echo '# Moved to ~/.config/ghostty' > ~/Library/Application\\ Support/com.mitchellh.ghostty/config
 ```
