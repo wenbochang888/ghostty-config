@@ -39,7 +39,7 @@ git clone https://github.com/wenbochang888/ghostty-config.git ~/.config/ghostty
 
 macOS 有两个配置路径，需要清空旧的避免冲突：
 ```bash
-echo '# Moved to ~/.config/ghostty' > ~/Library/Application\\ Support/com.mitchellh.ghostty/config
+echo '# Moved to ~/.config/ghostty' > ~/Library/Application\ Support/com.mitchellh.ghostty/config
 ```
 
 ### 第四步：重启 Ghostty
